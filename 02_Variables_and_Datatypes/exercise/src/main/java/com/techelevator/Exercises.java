@@ -7,6 +7,7 @@ public class Exercises {
         /* Exercise 1
         1. 4 birds are sitting on a branch. 1 flies away. How many birds are left on
         the branch?
+        testing mic
         */
 		// ### EXAMPLE:
 		int birdsOnABranch = 4;
