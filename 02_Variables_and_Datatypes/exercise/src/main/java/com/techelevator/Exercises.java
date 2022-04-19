@@ -36,8 +36,8 @@ public class Exercises {
         4. There are 5 flowers and 3 bees. How many less bees than flowers?
         */
 		int numberOfFlowers = 5;
-		int numberOfbees = 3;
-		int numberLessBeesThanFlowers =  numberOfFlowers - numberOfbees;
+		int numberOfBees = 3;
+		int numberLessBeesThanFlowers =  numberOfFlowers - numberOfBees;
 		System.out.println(numberLessBeesThanFlowers);
 
 
@@ -93,14 +93,12 @@ public class Exercises {
         10. Mrs. Hilt found a quarter, 1 dime, and 2 nickels. How much money did
         she find?
         */
-		int quarters = 1;
-		int quarterValue = 25;
-		int dimes = 1;
-		int dimeValue = 10;
-		int nickels = 2;
-		int nickelValue = 5;
-		float totalChangeAmount = (quarters * quarterValue) + (dimes * dimeValue) + (nickels * nickelValue);
-		System.out.println(totalChangeAmount + "");
+		int quarter = 25;
+		int dime = 10;
+		int nickel = 5;
+		nickel = nickel * 2;
+		double moneyFound = (quarter + dime + nickel)  / 100.00;
+		System.out.println(moneyFound);
 
 
         /* Exercise 11
@@ -150,18 +148,12 @@ public class Exercises {
         15. Mrs. Hilt has $10. She spends $3 on a toy truck and $2 on a pencil
         case. How much money does she have left?
         */
-		int totalStartMoney = 10;
-		int toyTruckCost = 3;
-		int pencilCaseCost = 2;
-		int moneyLeft = totalStartMoney - toyTruckCost - pencilCaseCost;
-		System.out.println(moneyLeft);
+		int hiltsMoney = 10;
+		int costTruck = 3;
+		int costPencilCase = 2;
+		int moneyLeftHilt = hiltsMoney - costTruck - costPencilCase;
+		System.out.println(moneyLeftHilt + "$");
 
-
-		//int initialhiltMoney = 10;
-		//int costTruck = 3;
-		//int costPencilCase = 2;
-		//int moneyLeftHilt = hiltsMoney - costTruck - costPencilCase;
-		//System.out.println("$" + moneyLeftHilt);
 
 
         /* Exercise 16
@@ -184,10 +176,6 @@ public class Exercises {
 		int numberOfSeashellsToFind = targetSeashellCount - initialSeashellCount;
 		System.out.println(numberOfSeashellsToFind);
 
-
-		//int meganSeashells = 19;
-		//int meganWants = 25;
-		//System.out.println("She needs " + (meganWants - meganSeashells) + " seashells to have 25 in her collection.");
 
 
         /* Exercise 18
@@ -237,11 +225,9 @@ public class Exercises {
 		int requiredRockCount = 125;
 		int currentRockCount = 64;
 		int neededRockCount = requiredRockCount - currentRockCount;
+		System.out.println(neededRockCount);
 
 
-		//int rocksNeeded = 125;
-		//int rocksNow = 64;
-		//System.out.println(rocksNeeded - rocksNow);
 
 
         /* Exercise 23
@@ -290,11 +276,6 @@ public class Exercises {
 				double totalHotdogCost = purchasedHotDogs * costHotdog;
 		System.out.println(totalHotdogCost + "$");
 
-
-		//int hotDogsBought = 6;
-		//int hotDogsCost = 50;
-		//double hotDogTotal = ( hotDogsBought + hotDogsCost) / 100.00;
-		//System.out.println("$" + hotDogTotal);
 
 
         /* Exercise 27
@@ -541,8 +522,8 @@ public class Exercises {
 	    */
 		String firstName = "Grace";
 		String lastName = "Hooper";
-		String middleInitial = "B";
-		String fullName = lastName + ", " + " " + firstName + " " + middleInitial ".";
+		String middleInitial = "B.";
+		String fullName = lastName + ", " + " " + firstName + " " + middleInitial;
 		System.out.println(fullName);
 
 
